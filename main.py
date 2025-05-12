@@ -7,4 +7,4 @@ def menor():
   return min(numeros)
 def pares():
   numerospares = list(filter(lambda x: x % 2 == 0, numeros))
-  return numerospares
+  return len(numerospares)
